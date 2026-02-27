@@ -13,36 +13,6 @@ The application follows a client-server architecture:
 - **Authentication**: JWT-based authentication with bcrypt password hashing
 - **Storage**: In-memory storage (no database required)
 
-## Folder Structure
-
-```
-ecommerce-app/
-├── backend/
-│   ├── server.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── products.js
-│   │   └── cart.js
-│   ├── middleware/
-│   │   └── authMiddleware.js
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   ├── api.js
-│   │   ├── pages/
-│   │   │   ├── Login.js
-│   │   │   ├── Register.js
-│   │   │   ├── Products.js
-│   │   │   └── Cart.js
-│   │   └── index.css
-│   ├── public/
-│   │   └── index.html
-│   └── package.json
-└── README.md
-```
-
 ## Setup Instructions
 
 ### Backend Setup
